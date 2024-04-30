@@ -7,18 +7,5 @@ export * as errorCorrectionPercents from "./constants/errorCorrectionPercents";
 export * as modes from "./constants/modes";
 export * as qrTypes from "./constants/qrTypes";
 export * as drawTypes from "./constants/drawTypes";
-
 export * from "./types";
-
-// export {
-//   dotTypes,
-//   cornerDotTypes,
-//   cornerSquareTypes,
-//   errorCorrectionLevels,
-//   errorCorrectionPercents,
-//   modes,
-//   qrTypes,
-//   drawTypes
-// };
-
 export default QRCodeStyling;

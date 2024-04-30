@@ -2,6 +2,7 @@
   "name": "qr-code-styling",
   "version": "1.5.0",
   "description": "Add a style and an image to your QR code",
+  "type": "module",
   "main": "lib/qr-code-styling.js",
   "types": "lib/index.d.ts",
   "files": [
@@ -33,6 +34,7 @@
     "webpack-merge": "^5.7.3"
   },
   "scripts": {
+    "tsc": "tsc",
     "build": "webpack --mode=production --config webpack.config.build.js",
     "build:dev": "webpack --mode=development --config webpack.config.build.js",
     "test": "jest",

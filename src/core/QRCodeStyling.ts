@@ -1,13 +1,13 @@
-import getMode from "../tools/getMode";
-import mergeDeep from "../tools/merge";
-import downloadURI from "../tools/downloadURI";
-import QRCanvas from "./QRCanvas";
-import QRSVG from "./QRSVG";
-import drawTypes from "../constants/drawTypes";
+import getMode from "../tools/getMode.js";
+import mergeDeep from "../tools/merge.js";
+import downloadURI from "../tools/downloadURI.js";
+import QRCanvas from "./QRCanvas.js";
+import QRSVG from "./QRSVG.js";
+import drawTypes from "../constants/drawTypes.js";
 
-import defaultOptions, { RequiredOptions } from "./QROptions";
-import sanitizeOptions from "../tools/sanitizeOptions";
-import { Extension, QRCode, Options, DownloadOptions } from "../types";
+import defaultOptions, { RequiredOptions } from "./QROptions.js";
+import sanitizeOptions from "../tools/sanitizeOptions.js";
+import type { Extension, QRCode, Options, DownloadOptions } from "../types";
 import qrcode from "qrcode-generator";
 
 export default class QRCodeStyling {

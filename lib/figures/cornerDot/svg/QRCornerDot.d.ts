@@ -1,4 +1,4 @@
-import { CornerDotType, RotateFigureArgs, BasicFigureDrawArgs, DrawArgs } from "../../../types";
+import type { CornerDotType, RotateFigureArgs, BasicFigureDrawArgs, DrawArgs } from "../../../types";
 export default class QRCornerDot {
     _element?: SVGElement;
     _svg: SVGElement;

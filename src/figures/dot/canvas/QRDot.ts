@@ -1,5 +1,5 @@
-import dotTypes from "../../../constants/dotTypes";
-import {
+import dotTypes from "../../../constants/dotTypes.js";
+import type {
   DotType,
   GetNeighbor,
   RotateFigureArgsCanvas,

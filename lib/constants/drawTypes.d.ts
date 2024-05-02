@@ -1,3 +1,3 @@
-import { DrawTypes } from "../types";
+import type { DrawTypes } from "../types";
 declare const _default: DrawTypes;
 export default _default;

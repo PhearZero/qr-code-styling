@@ -1,5 +1,5 @@
-import { RequiredOptions } from "./QROptions";
-import { QRCode, FilterFunction, Gradient } from "../types";
+import { RequiredOptions } from "./QROptions.js";
+import type { QRCode, FilterFunction, Gradient } from "../types";
 export default class QRSVG {
     _element: SVGElement;
     _defs: SVGElement;

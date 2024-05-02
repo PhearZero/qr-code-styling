@@ -1,5 +1,5 @@
-import { RequiredOptions } from "./QROptions";
-import { QRCode, Gradient, FilterFunction } from "../types";
+import { RequiredOptions } from "./QROptions.js";
+import type { QRCode, Gradient, FilterFunction } from "../types";
 export default class QRCanvas {
     _canvas: HTMLCanvasElement;
     _options: RequiredOptions;

@@ -1,4 +1,4 @@
-import { CornerSquareType, RotateFigureArgsCanvas, BasicFigureDrawArgsCanvas, DrawArgsCanvas } from "../../../types";
+import type { CornerSquareType, RotateFigureArgsCanvas, BasicFigureDrawArgsCanvas, DrawArgsCanvas } from "../../../types";
 export default class QRCornerSquare {
     _context: CanvasRenderingContext2D;
     _type: CornerSquareType;
